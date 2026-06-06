@@ -1,0 +1,17 @@
+```text
+# Виртуальное окружение
+venv/
+.venv/
+Env/
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Отчеты и логи бенчмарка
+report.json
+*.log
+
+# Локальные конфиги редакторов
+.vscode/
+.idea/

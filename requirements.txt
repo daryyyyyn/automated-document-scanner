@@ -1,0 +1,9 @@
+# Core CV stack
+opencv-python-headless==4.9.0.80   # headless = no GTK/Qt deps in container
+numpy>=1.26,<2.0
+
+# UI
+streamlit>=1.35,<2.0
+
+# Image I/O (used by app.py for PDF export)
+Pillow>=10.3,<11.0
